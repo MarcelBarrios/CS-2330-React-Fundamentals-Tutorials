@@ -1,0 +1,36 @@
+.Title {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: rgb(26, 137, 192);
+    color: #fff;
+    flex-direction: column;
+}
+
+.Title-Subtitle {
+    color: rgba(220, 237, 239, 0.75);
+    font-size: 0.9em;
+}
+
+.Title a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: rgba(255, 255, 255, 0.835);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Title .nav-link-active {
+    color: #fff;
+    border-bottom: 2px solid;
+}
+
+@media only screen and (min-width: 700px) {
+    .Title-Subtitle {
+        font-size: 1em;
+    }
+}

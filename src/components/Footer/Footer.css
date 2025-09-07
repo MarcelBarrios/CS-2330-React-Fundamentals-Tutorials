@@ -1,0 +1,46 @@
+.Footer {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: rgb(26, 137, 192);
+    color: #fff;
+    margin: 5% 0% 0%;
+
+}
+
+.Footer {
+    color: rgba(220, 237, 239, 0.75);
+    width: 100%;
+    display: flex;
+}
+
+.Footer-P {
+    margin: 5px 0;
+}
+
+.Footer-Links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.Footer-Links li {
+    display: inline;
+}
+
+.Footer-Links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Footer-Links a:hover {
+    text-decoration: underline;
+}

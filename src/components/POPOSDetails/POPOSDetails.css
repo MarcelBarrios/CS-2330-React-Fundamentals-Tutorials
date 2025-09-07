@@ -1,0 +1,46 @@
+.POPOSDetails {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.POPOSDetails .POPOSDetails-info {
+    text-align: left;
+    padding: 0 1em;
+}
+
+.POPOSDetails .POPOSDetails-title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.POPOSDetails .POPOSDetails-image {
+    width: 100%;
+}
+
+.POPOSDetails .POPOSDetails-image img {
+    width: 100%;
+    height: auto;
+}
+
+.POPOSDetails .POPOSDetails-hours {
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width: 960px) {
+    .POPOSDetails {
+        flex-direction: row-reverse;
+        width: 960px;
+    }
+
+    .POPOSDetails .POPOSDetails-info {
+        flex: 1;
+    }
+
+    .POPOSDetails .POPOSDetails-image {
+        flex: 2;
+    }
+}
