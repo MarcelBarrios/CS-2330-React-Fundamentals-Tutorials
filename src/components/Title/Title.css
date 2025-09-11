@@ -1,36 +1,89 @@
 .Title {
-    box-sizing: border-box;
-    width: 100%;
+    background-color: #2a4365;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #63b3ed;
+}
+
+.Title-Header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    margin-bottom: 2em;
-    background-color: rgb(26, 137, 192);
-    color: #fff;
+
     flex-direction: column;
+
+    align-items: center;
+
+    gap: 1.5rem;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Title-Text {
+    text-align: center;
+}
+
+.Title-Text h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ebf8ff;
 }
 
 .Title-Subtitle {
-    color: rgba(220, 237, 239, 0.75);
-    font-size: 0.9em;
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    color: #a0aec0;
+    font-weight: 400;
 }
 
-.Title a {
-    display: inline-block;
-    padding: 0.5em 1em;
-    color: rgba(255, 255, 255, 0.835);
-    font-weight: bold;
+.Title-Nav {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.Title .nav-link,
+.Title .nav-link-active {
+    color: #e2e8f0;
+    font-weight: 600;
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.Title .nav-link:hover {
+    background-color: #4a5568;
+    color: white;
 }
 
 .Title .nav-link-active {
-    color: #fff;
-    border-bottom: 2px solid;
+    background-color: #63b3ed;
+    color: #1a202c;
 }
 
-@media only screen and (min-width: 700px) {
-    .Title-Subtitle {
-        font-size: 1em;
+
+@media only screen and (min-width: 768px) {
+
+    .Title-Header {
+        flex-direction: row;
+
+        justify-content: space-between;
+    }
+
+    .Title-Text {
+        text-align: left;
+    }
+
+    .Title-Nav {
+        flex-wrap: nowrap;
     }
 }
