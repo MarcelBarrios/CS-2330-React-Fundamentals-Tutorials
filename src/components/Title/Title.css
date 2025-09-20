@@ -34,7 +34,7 @@
 .Title-Subtitle {
     margin-top: 0.25rem;
     font-size: 1rem;
-    color: #a0aec0;
+    color: #ebf8ff;
     font-weight: 400;
 }
 
@@ -52,8 +52,8 @@
 
 .Title .nav-link,
 .Title .nav-link-active {
-    color: #e2e8f0;
-    font-weight: 600;
+    color: #ffffff;
+    font-weight: 1000;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 6px;
